@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import './index.css';
 
 function App() {
-  return (
-   
-  );
+    return (
+        <div className="App">
+            <Main className="Main" />
+        </div>
+    );
 }
 
 export default App;
