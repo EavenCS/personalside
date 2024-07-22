@@ -1,76 +1,42 @@
 body {
+  background-color: #2F80ED – #B2FFDA; 
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, #CB5EEE, #4BE1EC);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.Main {
-  flex: 1;
-}
-
-.MainContent > img {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3.5%;
-  height: 250px;
-}
-
-.MainContent > h1 {
-  text-align: center;
-  font-weight: bold;
+  font-family: Arial, sans-serif; 
 }
 
 .MainContent {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AvatarImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .Button {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3490dc; 
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
+  margin: 10px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 0.25rem;
-  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: #0073b1;
+  color: white;
   cursor: pointer;
+  width: 150px;
 }
 
 .Button img {
   width: 20px;
-  margin-right: 8px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.Button:nth-child(2) {
+  background-color: #333;
 }

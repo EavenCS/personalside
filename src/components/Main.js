@@ -2,14 +2,15 @@ import React from 'react';
 import avatar from '../Images/avatar.png';
 import linkedinLogo from '../Images/linkedinLogo.png';
 import githubLogo from '../Images/githubLogo.png';
+import Card from './Card'; // Importpfad angepasst
 import '../index.css';
 
 export default function Main() {
   return (
-    <div>
+    <Card>
       <div className="MainContent">
         <img src={avatar} alt="Example" className="AvatarImage" />
-        <h1>Hi, I am Eaven, a Fullstack Software Developer</h1>
+        <h1 className='text'>Hi, I am Eaven, a Fullstack Software Developer</h1>
         <div>
           <button className="Button">
             <img src={linkedinLogo} alt="LinkedIn" />
@@ -21,6 +22,6 @@ export default function Main() {
           </button>
         </div>
       </div>
-    </div>
+    </Card>
   );
 }
