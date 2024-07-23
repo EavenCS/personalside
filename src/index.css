@@ -1,11 +1,12 @@
 body {
   background: linear-gradient(90deg, #2F80ED, #B2FFDA);
   margin: 0;
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
 }
 
 .MainContent {
   text-align: center;
+  padding: 20px;
 }
 
 .AvatarImage {
@@ -49,4 +50,22 @@ body {
   width: 24px;
   height: 24px;
   margin-right: 10px;
+}
+
+.Projects {
+  margin-top: 40px;
+}
+
+.ProjectsTitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2F80ED;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #2F80ED;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-top: 40px;
 }
