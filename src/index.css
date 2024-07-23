@@ -1,42 +1,52 @@
 body {
-  background-color: #2F80ED – #B2FFDA; 
+  background: linear-gradient(90deg, #2F80ED, #B2FFDA);
   margin: 0;
   font-family: Arial, sans-serif; 
 }
 
 .MainContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .AvatarImage {
-  width: 100px;
-  height: 100px;
+  width: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
 .Button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  margin: 10px;
+  background-color: #0073b1; /* LinkedIn blue */
+  color: white;
   padding: 10px 20px;
+  margin: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #0073b1;
-  color: white;
-  cursor: pointer;
-  width: 150px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .Button img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
 }
 
+.Button:hover {
+  background-color: #005582; /* Darker LinkedIn blue */
+}
+
 .Button:nth-child(2) {
-  background-color: #333;
+  background-color: #333; /* GitHub black */
+}
+
+.Button:nth-child(2):hover {
+  background-color: #24292e; /* Darker GitHub black */
+}
+
+.Icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
