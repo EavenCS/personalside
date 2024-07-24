@@ -28,6 +28,8 @@ If you want to host or customize this page yourself, follow these steps:
    cd personalside
 1. **Install dependencies:** <br>
 Make sure you have Node.js and npm installed, then run
+   ```bash
+   npm install
 
 3. **Start the development server:**
    ```bash
