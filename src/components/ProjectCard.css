@@ -41,8 +41,9 @@
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: #f39c12;
-  color: white;
+  background-color: #85C1E9; /* Hier kannst du auch #A3E4D7 oder #F9E79F ausprobieren */
+  color: #333;
+  border: 2px solid #D5D8DC; /* Randfarbe */  color: white;
   border-radius: 3px;
   font-weight: bold;
   font-size: 18px;
