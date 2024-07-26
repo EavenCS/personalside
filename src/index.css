@@ -69,3 +69,27 @@ body {
   padding-bottom: 10px;
   margin-top: 40px;
 }
+
+.Footer-Styling {
+  background-color: #24292e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.Footer-Content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+#Copyright-Text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
